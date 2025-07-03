@@ -1,0 +1,48 @@
+/*
+iffy◒
+s9a.page/iffy color typhoon
+webmural.com/iffy thxyz hue
+*/
+.iyff {filter:hue-rotate(-40deg)}
+.ffiy {filter:hue-rotate(20deg)}
+.ffyi {filter:hue-rotate(120deg)}
+.yiff {filter:hue-rotate(-20deg)}
+.iffy {fill:var(--iffy);stroke:var(--yffi)}
+.yffi {fill:var(--yffi);stroke:var(--iffy)}
+.iffy.iffy {background-color:var(--iffy);color:var(--yffi)}
+.yffi.yffi {background-color:var(--yffi);color:var(--iffy)}
+.iffy ::selection {color:var(--iffy);background:var(--else)}
+.yffi ::selection {color:var(--yffi);background:var(--else)}
+.iffy *{background-color:transparent;color:unset;--else:powderblue}
+.yffi *{background-color:transparent;color:unset;--else:dodgerblue}
+*{--iffy:darkviolet;--yffi:lemonchiffon}
+@media (prefers-color-scheme:dark){*{--yffi:peachpuff}}
+@media (prefers-contrast:more){*{--iffy:indigo}}
+@media (prefers-contrast:less){*{--yffi:peachpuff}}
+
+@keyframes abracadabra {
+  from { filter: hue-rotate(80deg) }
+  to { filter: hue-rotate(40deg) }
+}
+
+.abracadabra {
+  --horizon: 38%;
+  animation: 10s ease-in-out abracadabra infinite;
+  background-image: linear-gradient(var(--AAA), var(--AA), transparent var(--horizon));
+}
+
+:root {
+  --AA: #aa66f6;
+  --AAA: #aa88fa;
+  transition: 1ms ease-in-out;
+}
+
+:focus {
+  outline: .5rem dotted;
+}
+
+a, b {
+  text-shadow:
+    0 -1vh 3pc var(--AA),
+    1vw -2vh 3pc var(--AAA);
+}
